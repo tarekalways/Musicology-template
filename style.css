@@ -1,0 +1,47 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+*{
+     font-family: 'Oswald', sans-serif;
+}
+
+/* Header Part */
+#hero{
+     background: url(./images/hero-bg.png) no-repeat center;
+     background-size: cover;
+     height: 90vh;
+}
+.hero-content{
+     
+}
+.hero-content h1{
+     font-size: 75px;
+
+     
+}
+.hero-content p{
+     font-size: 20px;
+}
+.hero-content button{
+     background: #ff6307;
+}
+.hero-content button:hover{
+     background: #913a07;
+}
+
+/*-------------- Banner Section -------------*/
+#banner{
+     background: #ff6309;
+}
+
+/*========= Pricing Section =======*/
+#pricing{
+     background: #2c2c2c;
+}
+.pricing-card{
+     background-color: #ff6309;
+}
+.pricing-content p,
+.banner-content p{
+     font-size: 22px;
+}
